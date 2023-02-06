@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonts-text: 'Inter', sans-serif;
+    --font-text-1: 'Roboto', sans-serif;
+    --color-card-area: #F5F5F5;
+    --color-card-area-2: #516778;
+    --color-border: #D2D5DA;
+    --color-text: #6C727F;
+    --color-background: #1E1E1E;
+    --color-shadow: rgba(0, 0, 0, 0.05);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    background-color: var(--color-background);
+}
+
+.credit-card {
+    width: 500px;
+    height: 739px;
+    margin-left: 90px;
+    background-color: white;
+    border: 1px solid rgb(224, 223, 223);
+    border-radius: 20px;
+}
+
+form {
+    width: 380px;
+    height: 524px;
+    margin: 60px;
+}
+
+.card-name {
+    height: 46px;
+    border-radius: 8px;
+    border-color: var(--color-border);
+    margin-bottom: 30px;
+    padding-left: 16px;
+    font-weight: bold;
+    border-color: var(--color-border);
+    box-shadow: 0px 16px 11px -12px var(--color-shadow);
+}
+
+.card-title {
+    font-family: var(--fonts-text);
+    font-size: 12px;
+}
+
+.card-text {
+    width: 209px;
+    height: 17px;
+    border: none;
+    font-size: 14px;
+    color: var(--color-border);
+    font-family: var(--fonts-text);
+}
+
+.simple-area {
+    width: 120px;
+    height: 22px;
+    border: none;
+    margin-left: 15px;
+}
+
+.credit-card__card-area {
+    margin-bottom: 30px;
+    background-color: var(--color-card-area);
+    border-radius: 15px;
+    padding: 30px 35px 25px 35px;
+}
+
+.logo {
+    display: grid;
+    grid-template-columns: 83px 1fr 48px;
+    margin-bottom: 23px;
+}
+
+.text {
+    font-family: var(--font-text);
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 4px;
+}
+
+.number-zero {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 23px;
+    gap: 0 32.67px;
+    font-size: 22px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: var(--color-card-area-2);
+}
+
+.client {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.name-date {
+    color: var(--color-card-area-2);
+    font-size: 16px;
+    font-family: var(--font-text-1);
+}
+
+.name {
+    margin-bottom: 5px;
+}
+
+.general {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.icon-bank {
+    margin-left: 90px;
+}
+
+.credit-card__about-client {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 30px;
+    height: 46px;
+    font-weight: bold;
+    font-family: var(--fonts-text);
+}
+
+.property {
+    font-family: var(--fonts-text);
+    font-size: 12px;
+    border-radius: 8px;
+    padding-left: 16px;
+    border-color: var(--color-border);
+    box-shadow: 0px 16px 11px -12px var(--color-shadow);
+}
+
+.all-property {
+    font-family: var(--fonts-text);
+    font-size: 14px;
+    border: none;
+    color: var(--color-text);
+    font-family: var(--fonts-text);
+}
+
+.name-text {
+    width: 93px;
+}
+
+.surname-text {
+    width: 113px;
+}
+
+.card-number {
+    height: 46px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    padding-left: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: var(--fonts-text);
+    border-color: var(--color-border);
+    box-shadow: 0px 16px 11px -12px var(--color-shadow);
+}
+
+.enter-number {
+    display: inline-block;
+    width: 151px;
+    height: 18px;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    vertical-align: top;
+}
+
+.small-logo {
+    width: 32px;
+    height: 22px;
+    padding-left: 161px;
+    padding-top: 3px;
+}
+
+.credit-card__date {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    height: 46px;
+}
+
+.functions {
+    border-radius: 8px;
+    padding-left: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: var(--fonts-text);
+    border-color: var(--color-border);
+    box-shadow: 0px 16px 11px -12px var(--color-shadow);
+}
+
+.cvc {
+    position: relative;
+}
+
+select {
+    border: none;
+    font-size: 14px;
+    font-family: var(--fonts-text);
+    color: var(--color-text);
+}
+
+/* .month {
+    position: relative;
+}
+
+.icon-select {
+    position: absolute;
+    top: 2;
+    left: 90px;
+} */
+
+.dots {
+    display: inline-block;
+    border: none;
+    width: 24px;
+    height: 18px;
+    font-size: 15px;
+    font-weight: bolder;
+    vertical-align: top;
+}
+
+.icon-cvc {
+    position: absolute;
+    top: 2px;
+    left: 85px;
+}
+
+.btn {
+    width: 380px;
+    height: 60px;
+    border-radius: 8px;
+    margin-top: 35px;
+    background-color: #E12828;
+    border: none;
+    font-size: 28px;
+    color: #fff;
+    font-family: var(--fonts-text);
+}
