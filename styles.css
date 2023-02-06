@@ -180,13 +180,20 @@ form {
 }
 
 .enter-number {
-    display: inline-block;
     width: 151px;
+    transform: translateY(-5.5px);
+}
+
+.dots {
+    width: 24px;
+    transform: translateY(1px);
+}
+
+.all-dots {
     height: 18px;
     border: none;
     font-size: 15px;
     font-weight: bolder;
-    vertical-align: top;
 }
 
 .small-logo {
@@ -233,16 +240,6 @@ select {
     top: 2;
     left: 90px;
 } */
-
-.dots {
-    display: inline-block;
-    border: none;
-    width: 24px;
-    height: 18px;
-    font-size: 15px;
-    font-weight: bolder;
-    vertical-align: top;
-}
 
 .icon-cvc {
     position: absolute;
