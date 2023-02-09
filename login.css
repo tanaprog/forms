@@ -26,10 +26,6 @@
 }
 
 body {
-    /* font-family: 'Inter', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Inter', sans-serif; */
     background-color: var(--color-background);
 }
 
@@ -72,13 +68,6 @@ form {
 .border {
     border: 1px solid var(--color-border);
     border-radius: 6px;
-}
-
-.apple {
-    padding: 10px 48px;
-}
-
-.facebook {
     padding: 10px 48px;
 }
 
@@ -131,6 +120,15 @@ input {
     border: none;
     padding-left: 16px;
     transform: translateY(-3px);
+}
+
+.email {
+    width: 100%;
+}
+
+.name-eyes {
+    width: 100%;
+    letter-spacing: 2px;
 }
 
 .icon-envelop,

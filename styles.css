@@ -21,13 +21,6 @@
     --color-input: #000;
 }
 
-body {
-    font-family: 'Inter', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Inter', sans-serif;
-}
-
 .main {
     background-color: var(--color-background);
 }
@@ -50,6 +43,7 @@ form {
 .card-name {
     margin-bottom: 30px;
     font-weight: bold;
+    font-family: var(--fonts-text);
 }
 
 legend {
