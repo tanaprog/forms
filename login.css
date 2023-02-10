@@ -23,6 +23,7 @@
     --color-input: #000;
     --color-or: #CFCFCF;
     --color-button: #E12828;
+    --color-back: #fff;
 }
 
 body {
@@ -37,7 +38,7 @@ body {
     margin: 50px 40px;
 }
 
-form {
+.form-login {
     width: 380px;
     padding: 60px;
 }
@@ -55,7 +56,6 @@ form {
     font-family: var(--font-small-text);
     text-align: center;
     margin-bottom: 35px;
-
 }
 
 .login__icons {

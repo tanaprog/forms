@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="welcome.css">
+</head>
+
+<body>
+
+
+    <div class="welcome">
+
+        <div class="title-text welcome__title-text">
+            <h1 class="welcome-title">Welcome</h1>
+            <h4 class="welcome-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam duis vitae curabitur
+                amet,
+                fermentum
+                lorem. </h4>
+        </div>
+
+        <form class="form-welcome" action="" method="post">
+
+            <div class="general welcome__general">
+                <fieldset class="general-properties">
+                    <legend>First name <img class="star" src="./static/images/star.png" alt="star"></legend>
+                    <input class="your-name" type="text" placeholder="Your name">
+                </fieldset>
+
+                <fieldset class="general-properties">
+                    <legend>Last name <img class="star" src="./static/images/star.png" alt="star"></legend>
+                    <input class="your-name" type="text" placeholder="Your last name">
+                </fieldset>
+            </div>
+
+
+            <fieldset class="email-star general-properties email-pass-birth">
+                <legend>E-mail <img class="star" src="./static/images/star.png" alt="star"></legend>
+                <input class="your-property" type="text" placeholder="yourmail@gmail.com">
+                <div class="welcome-envelop">
+                    <img class="your-envelop indent-right" src="./static/images/envelop.png" alt="envelop">
+                </div>
+            </fieldset>
+
+
+            <fieldset class="password-star general-properties email-pass-birth">
+                <legend>Password <img class="star" src="./static/images/star.png" alt="star"></legend>
+                <input class="your-property" type="text" placeholder="•••••••••••••" maxlength="13">
+                <div class="welcome-eyes">
+                    <img class="your-eyes indent-right" src="./static/images/icon-eyes.png" alt="eyes">
+                </div>
+            </fieldset>
+
+
+            <fieldset class="city general-properties city-national">
+                <legend>City</legend>
+                <img class="icon-navigator left-indent" src="./static/images/nav.icon.png" alt="navigator">
+                <select>
+                    <option value="city-1">Select city</option>
+                    <option value="city-2">Select city</option>
+                    <option value="city-3">Select city</option>
+                </select>
+            </fieldset>
+
+
+            <fieldset class="birthday general-properties email-pass-birth">
+                <legend>Birthday</legend>
+                <input class="your-property" type="text" placeholder="DD / MM / YYYY">
+                <div class="calendar">
+                    <img class="icon-calendar indent-right" src="./static/images/calendar.png" alt="calendar">
+                </div>
+            </fieldset>
+
+
+            <fieldset class="nationality general-properties city-national">
+                <legend>Nationality</legend>
+                <img class="flag left-indent" src="./static/images/flag.icon.png" alt="flag">
+                <select>
+                    <option value="nationality-1">Your nationality</option>
+                    <option value="nationality-1">Your nationality</option>
+                    <option value="nationality-1">Your nationality</option>
+                </select>
+            </fieldset>
+
+        </form>
+
+        <div class="welcome-checkboks welcome__welcome-checkboks">
+            <input class="icon-checkbox" type="checkbox" checked>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida eget ultricies pharetra scelerisque
+                duis cursus.</p>
+        </div>
+
+        <div class="welcome-button welcome__welcome-button">
+            <button class="your-button" type="button">Enter</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
