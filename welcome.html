@@ -58,7 +58,7 @@
             <fieldset class="city general-properties city-national">
                 <legend>City</legend>
                 <img class="icon-navigator left-indent" src="./static/images/nav.icon.png" alt="navigator">
-                <select>
+                <select class="your-city">
                     <option value="city-1">Select city</option>
                     <option value="city-2">Select city</option>
                     <option value="city-3">Select city</option>
@@ -68,7 +68,7 @@
 
             <fieldset class="birthday general-properties email-pass-birth">
                 <legend>Birthday</legend>
-                <input class="your-property" type="text" placeholder="DD / MM / YYYY">
+                <input class="your-property" type="text" placeholder="DD / MM / YYYY" maxlength="8">
                 <div class="calendar">
                     <img class="icon-calendar indent-right" src="./static/images/calendar.png" alt="calendar">
                 </div>
@@ -78,7 +78,7 @@
             <fieldset class="nationality general-properties city-national">
                 <legend>Nationality</legend>
                 <img class="flag left-indent" src="./static/images/flag.icon.png" alt="flag">
-                <select>
+                <select class="your-national">
                     <option value="nationality-1">Your nationality</option>
                     <option value="nationality-1">Your nationality</option>
                     <option value="nationality-1">Your nationality</option>
@@ -89,7 +89,8 @@
 
         <div class="welcome-checkboks welcome__welcome-checkboks">
             <input class="icon-checkbox" type="checkbox" checked>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida eget ultricies pharetra scelerisque
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span>Gravida eget ultricies</span> pharetra
+                scelerisque
                 duis cursus.</p>
         </div>
 

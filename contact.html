@@ -25,35 +25,42 @@
             <div class="first-last-name contact__first-last-name">
                 <fieldset class="all-property">
                     <legend>First name <img class="star" src="./static/images/star.png" alt="star"></legend>
-                    <input class="first-name border" type="text" placeholder="Name">
+                    <input class="first-name" type="text" placeholder="Name">
                 </fieldset>
 
                 <fieldset class="all-property">
                     <legend>Last name <img class="star" src="./static/images/star.png" alt="star"></legend>
-                    <input class="last-name border" type="text" placeholder="Lastname">
+                    <input class="last-name" type="text" placeholder="Lastname">
                 </fieldset>
             </div>
 
             <fieldset class=" all-property your-mail">
                 <legend>E-mail <img class="star" src="./static/images/star.png" alt="star"></legend>
-                <input class="email border" type="text" placeholder="yourmail@gmail.com">
+                <input class="email" type="text" placeholder="yourmail@gmail.com">
             </fieldset>
 
             <fieldset class=" all-property phone">
                 <legend>Phone</legend>
-                <img class="flag" src="./static/images/flag.icon.png" alt="flag">
-                <select>
-                    <option value="country-1">+1 (555) 000-0000</option>
-                    <option value="country-1">+1 (555) 000-0000</option>
-                    <option value="country-1">+1 (555) 000-0000</option>
-                    <option value="country-1">+1 (555) 000-0000</option>
-                </select>
-                <img class="icone-phone" src="./static/images/icon-phone.png" alt="phone">
+                <div class="wrapper">
+                    <img class="flag" src="./static/images/flag.icon.png" alt="flag">
+                    <select class="phone-message">
+                        <option value="country-1">+1 (555) 000-0000</option>
+                        <option value="country-1">+1 (555) 000-0000</option>
+                        <option value="country-1">+1 (555) 000-0000</option>
+                        <option value="country-1">+1 (555) 000-0000</option>
+                    </select>
+
+                </div>
+
+                <div class="icon-ph">
+                    <img class="icone-phone" src="./static/images/icon-phone.png" alt="phone">
+                </div>
             </fieldset>
 
             <fieldset class="message">
                 <legend>Message <img class="star" src="./static/images/star.png" alt="star"></legend>
-                <textarea class="border" name="comment" id="comment-field" rows="8">Your message</textarea>
+                <textarea class="your-message phone-message" name="comment" id="comment-field"
+                    rows="8">Your message</textarea>
             </fieldset>
 
         </form>

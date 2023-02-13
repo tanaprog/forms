@@ -57,13 +57,11 @@ body {
 }
 
 .welcome-title {
-    height: 39px;
     padding-bottom: 5px;
     font-size: 32px;
 }
 
 .welcome-text {
-    height: 34px;
     font-size: 14px;
 }
 
@@ -86,6 +84,7 @@ body {
     box-shadow: 0px 16px 11px -12px var(--color-shadow);
     border: 1px solid var(--color-border);
     width: 100%;
+    font-family: var(--fonts-text);
 }
 
 legend {
@@ -98,15 +97,28 @@ legend {
 input {
     border: none;
     outline: none;
+    font-size: 14px;
+    font-family: var(--fonts-text);
+    letter-spacing: 0.5px;
     padding-left: 16px;
 }
 
 .your-name {
+    transform: translateY(3px);
     width: 90%;
 }
 
 .your-property {
+    transform: translateY(-3px);
     width: 100%;
+}
+
+.your-city {
+    transform: translateY(-3px);
+}
+
+.your-national {
+    transform: translateY(1px);
 }
 
 select {
@@ -115,6 +127,10 @@ select {
     color: var(--color-text);
     width: 86.5%;
     padding-left: 10px;
+    font-size: 14px;
+    font-family: var(--fonts-text);
+    letter-spacing: 0.5px;
+    transform: translateY(-3px);
 }
 
 .email-pass-birth {
@@ -129,13 +145,9 @@ select {
 }
 
 .left-indent {
+    transform: translateY(3px);
     margin-left: 16px;
 }
-
-/* .city-national {
-    display: flex;
-
-} */
 
 .city {
     width: 100%;
@@ -154,8 +166,18 @@ select {
     padding: 0 60px 35px 60px;
 }
 
+span {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    font-family: var(--fonts-text);
+}
+
 .icon-checkbox {
-    transform: translateY(-18px);
+    transform: translateY(-16px);
 }
 
 .welcome__welcome-button {
