@@ -62,6 +62,10 @@ form {
     padding: 35px 60px;
 }
 
+.width {
+    width: 175px;
+}
+
 legend {
     font-weight: bold;
     padding-left: 5px;
@@ -75,6 +79,14 @@ legend {
     transform: translateY(-3px);
 }
 
+.all-property {
+    position: relative;
+    height: 46px;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    box-shadow: 0px 16px 11px -12px var(--color-shadow);
+}
+
 input {
     padding-left: 16px;
     font-size: 14px;
@@ -83,23 +95,9 @@ input {
     border: none;
     outline: none;
     width: 80%;
-    transform: translateY(3px);
-}
-
-.flag {
-    padding-left: 16px;
-    transform: translateY(3px);
-}
-
-textarea {
-    transform: translateY(3px);
-}
-
-.all-property {
-    height: 46px;
-    border: 1px solid var(--color-border);
-    border-radius: 8px;
-    box-shadow: 0px 16px 11px -12px var(--color-shadow);
+    position: absolute;
+    top: 3px;
+    /* transform: translateY(3px); */
 }
 
 .contact__first-last-name {
@@ -110,7 +108,15 @@ textarea {
 }
 
 .your-mail {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 25px;
+}
+
+.icon-envelop {
+    position: absolute;
+    top: 3px;
+    left: 348px;
 }
 
 .phone {
@@ -119,16 +125,35 @@ textarea {
     margin-bottom: 25px;
 }
 
+.wrapper {
+    position: absolute;
+    top: 5px;
+    padding-left: 16px;
+}
+
 .icone-phone {
+    position: absolute;
+    top: 3px;
+    right: -1px;
     padding-right: 12px;
-    transform: translateY(3px);
+    /* transform: translateY(3px); */
 }
 
 .message {
+    position: relative;
     width: 100%;
     border: 1px solid var(--color-border);
     border-radius: 8px;
     box-shadow: 0px 16px 11px -12px var(--color-shadow);
+}
+
+textarea {
+    transform: translateY(3px);
+}
+
+.phone-number {
+    position: absolute;
+    top: -1px;
 }
 
 .phone-message {
