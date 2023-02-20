@@ -17,9 +17,9 @@
 
             <form action="" method="post">
 
-                <fieldset class="card-name property">
+                <fieldset class="card-name property-height-border">
                     <legend>Card name</legend>
-                    <input class="card-text" type="text" placeholder="Give this card a name">
+                    <input class="card-text property-width-position" type="text" placeholder="Give this card a name">
                 </fieldset>
 
                 <div class="card-area credit-card__card-area">
@@ -30,7 +30,7 @@
                     </div>
 
                     <div class="elements">
-                        <div class="number-zero">
+                        <div class="number-element">
                             <p>0000</p>
                             <p>0000</p>
                             <p>0000</p>
@@ -39,8 +39,8 @@
 
                         <div class="client">
                             <div class="name-date">
-                                <h3 class="name general">Name Surname</h3>
-                                <h4 class="month-year general">MM/YYYY</h4>
+                                <p class="name general">Name Surname</p>
+                                <p class="month-year general">MM/YYYY</p>
                             </div>
                             <img class="icon-bank" src="./static/images/mastercard.png" alt="icon bank">
                         </div>
@@ -49,27 +49,31 @@
 
 
                 <div class="about-client credit-card__about-client">
-                    <fieldset class="first-name property">
+                    <fieldset class="first-name property-height-border">
                         <legend>First name</legend>
-                        <input class="name-text all-property" type="text" placeholder="Name on card">
+                        <input class="name-text property-width-position" type="text" placeholder="Name on card">
                     </fieldset>
 
-                    <fieldset class="surname property">
+                    <fieldset class="surname property-height-border">
                         <legend>Surname</legend>
-                        <input class="surname-text all-property" type="text" placeholder="Surname on card">
+                        <input class="surname-text property-width-position" type="text" placeholder="Surname on card">
                     </fieldset>
                 </div>
 
-                <fieldset class="card-number property">
+                <fieldset class="card-number property-height-border">
                     <legend>Card number</legend>
-                    <input class="enter-number all-dots" type="text" maxlength="16" placeholder="•••• •••• •••• ••••">
-                    <img class="small-logo" src="./static/images/mastercard.png" alt="logo bank small">
+                    <div class="wraper-dots-logo">
+                        <input class="enter-number all-dots" type="number" maxlength="16"
+                            placeholder="•••• •••• •••• ••••">
+                        <img class="small-logo" src="./static/images/mastercard.png" alt="logo bank small">
+
+                    </div>
                 </fieldset>
 
 
                 <div class="date credit-card__date">
 
-                    <fieldset class="month property all-data">
+                    <fieldset class="month property-height-border all-data">
                         <legend>Month</legend>
                         <select>
                             <option value="month-1">Select</option>
@@ -79,7 +83,7 @@
 
                     </fieldset>
 
-                    <fieldset class="year property all-data">
+                    <fieldset class="year property-height-border all-data">
                         <legend>Year</legend>
                         <select>
                             <option value="year-1">Select</option>
@@ -88,10 +92,13 @@
                         </select>
                     </fieldset>
 
-                    <fieldset class="cvc property all-data">
+                    <fieldset class="cvc property-height-border all-data">
                         <legend>CVC</legend>
-                        <input class="dots all-dots" type="text" maxlength="3" placeholder="•••">
-                        <img class="icon-cvc" src="./static/images/cvc-icon.png" alt="cvc icon">
+                        <div class="wraper-dots-cvc">
+                            <input class="dots all-dots" type="password" maxlength="3" placeholder="•••">
+                            <img class="icon-cvc" src="./static/images/cvc-icon.png" alt="cvc icon">
+
+                        </div>
                     </fieldset>
                 </div>
 

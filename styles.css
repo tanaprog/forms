@@ -26,10 +26,13 @@ body {
     background-color: var(--color-background);
 }
 
+.main {
+    margin: 40px 90px;
+}
+
 .credit-card {
     width: 500px;
     height: 739px;
-    margin: 40px 90px;
     background-color: white;
     border: 1px solid rgb(224, 223, 223);
     border-radius: 20px;
@@ -51,15 +54,17 @@ legend {
     padding-left: 5px;
     padding-right: 5px;
     margin-left: -5px;
+    position: absolute;
+    z-index: 2;
+    margin-top: -8px;
+    background-color: var(--color-back);
 }
 
 .card-text {
     width: 100%;
     height: 17px;
-    /* color: var(--color-text); */
     font-size: 14px;
     font-family: var(--fonts-text);
-    transform: translateY(4px);
 }
 
 input {
@@ -87,7 +92,7 @@ input {
     padding-top: 4px;
 }
 
-.number-zero {
+.number-element {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-bottom: 23px;
@@ -116,6 +121,7 @@ input {
 .general {
     font-size: 16px;
     line-height: 24px;
+    font-weight: bold;
 }
 
 .icon-bank {
@@ -131,20 +137,33 @@ input {
     font-family: var(--fonts-text);
 }
 
-.property {
+.property-height-border {
     height: 46px;
     font-size: 12px;
     border-radius: 8px;
     box-shadow: 0px 16px 11px -12px var(--color-shadow);
     border: 1px solid var(--color-border);
     padding-left: 16px;
+    padding-right: 12px;
+    position: relative;
 }
 
-.all-property {
-    width: 100%;
+.property-width-position {
+    width: 85%;
     font-size: 14px;
     font-family: var(--fonts-text);
-    transform: translateY(4px);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wraper-dots-logo {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 17px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .card-number {
@@ -156,26 +175,22 @@ input {
 }
 
 .enter-number {
-    width: 100%;
     letter-spacing: 2px;
 }
 
 .dots {
     width: 70%;
-    transform: translateY(1px);
 }
 
 .all-dots {
     height: 18px;
     font-size: 15px;
-    transform: translateY(4.5px);
 }
 
 .small-logo {
     width: 32px;
     height: 22px;
     padding-right: 12px;
-    transform: translateY(2px);
 }
 
 .credit-card__date {
@@ -191,24 +206,24 @@ input {
     padding-left: 16px;
 }
 
-.cvc {
-    position: relative;
-}
-
 select {
     border: none;
     font-family: var(--fonts-text);
     color: var(--color-text);
-    width: 100%;
+    width: 75%;
     font-size: 14px;
     outline: none;
-    transform: translateY(3px);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-.icon-cvc {
+.wraper-dots-cvc {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
     position: absolute;
-    top: 3px;
-    left: 89px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .btn {

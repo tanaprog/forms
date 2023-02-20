@@ -28,11 +28,7 @@
 
 body {
     background-color: var(--color-background);
-}
-
-.main {
-    display: flex;
-    justify-content: flex-start;
+    margin: 50px 40px;
 }
 
 .welcome {
@@ -40,7 +36,6 @@ body {
     height: 815px;
     border-radius: 20px;
     background-color: var(--color-back);
-    margin: 50px 40px;
 }
 
 .form-welcome {
@@ -85,6 +80,7 @@ body {
     border: 1px solid var(--color-border);
     width: 100%;
     font-family: var(--fonts-text);
+    position: relative;
 }
 
 legend {
@@ -92,6 +88,18 @@ legend {
     padding-right: 5px;
     margin-left: 11px;
     font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    margin-top: -9px;
+    background-color: var(--color-back);
+
+}
+
+.your-name {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 85%;
 }
 
 input {
@@ -103,22 +111,28 @@ input {
     padding-left: 16px;
 }
 
-.your-name {
-    transform: translateY(3px);
-    width: 90%;
-}
-
-.your-property {
-    transform: translateY(-3px);
+.wraper-email-pass-birth {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100%;
 }
 
-.your-city {
-    transform: translateY(-3px);
+.your-property {
+    width: 100%;
 }
 
-.your-national {
-    transform: translateY(1px);
+.wraper-city-national {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 16px;
+    width: 100%;
 }
 
 select {
@@ -130,7 +144,6 @@ select {
     font-size: 14px;
     font-family: var(--fonts-text);
     letter-spacing: 0.5px;
-    transform: translateY(-3px);
 }
 
 .email-pass-birth {
@@ -144,18 +157,8 @@ select {
     padding-right: 12px;
 }
 
-.left-indent {
-    transform: translateY(3px);
-    margin-left: 16px;
-}
-
 .city {
-    width: 100%;
     margin-bottom: 25px;
-}
-
-.nationality {
-    width: 100%;
 }
 
 .welcome__welcome-checkboks {

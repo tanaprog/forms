@@ -14,8 +14,9 @@
     <div class="contact">
 
         <div class="contact-title contact__contact-title">
-            <h1 class="title">Contact</h1>
-            <h4 class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam duis vitae curabitur amet,
+            <h1 class="title contact-title__title">Contact</h1>
+            <h4 class="text contact-title__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam duis
+                vitae curabitur amet,
                 fermentum
                 lorem. </h4>
         </div>
@@ -23,30 +24,32 @@
         <form action="" method="post">
 
             <div class="first-last-name contact__first-last-name">
-                <fieldset class="all-property width">
-                    <legend>First name <img class="star" src="./static/images/star.png" alt="star"></legend>
-                    <input class="first-name" type="text" placeholder="Name">
+                <fieldset class="property-height-border first-last-name__property-height-border width">
+                    <legend>First name <img class="star first-last-name__star" src="./static/images/star.png"
+                            alt="star"></legend>
+                    <input class="first-name first-last-name__first-name" type="text" placeholder="Name">
                 </fieldset>
 
-                <fieldset class="all-property width">
+                <fieldset class="property-height-border first-last-name__property-height-border width">
                     <legend>Last name <img class="star" src="./static/images/star.png" alt="star"></legend>
                     <input class="last-name" type="text" placeholder="Lastname">
                 </fieldset>
             </div>
 
-            <fieldset class="all-property your-mail">
-                <legend>E-mail <img class="star" src="./static/images/star.png" alt="star"></legend>
-                <input class="email" type="text" placeholder="yourmail@gmail.com">
-                <div class="envelop">
-                    <img class="icon-envelop" src="./static/images/envelop.png" alt="envelop">
+            <fieldset class="property-height-border contact__property-height-border your-mail">
+                <legend>E-mail <img class="star property-height-border__star" src="./static/images/star.png" alt="star">
+                </legend>
+                <input class="email property-height-border__email" type="text" placeholder="yourmail@gmail.com">
+                <div class="envelop property-height-border__envelop">
+                    <img class="icon-envelop envelop__icon-envelop" src="./static/images/envelop.png" alt="envelop">
                 </div>
             </fieldset>
 
-            <fieldset class="all-property phone">
+            <fieldset class="property-height-border contact__property-height-border phone">
                 <legend>Phone</legend>
-                <div class="wrapper">
-                    <img class="flag" src="./static/images/flag.icon.png" alt="flag">
-                    <select class="phone-number phone-message">
+                <div class="wrapper-flag-phone property-height-border__wrapper-flag-phone">
+                    <img class="flag wrapper-flag-phone__flag" src="./static/images/flag.icon.png" alt="flag">
+                    <select class="phone-number property-height-border__phone-number phone-message">
                         <option value="country-1">+1 (555) 000-0000</option>
                         <option value="country-1">+1 (555) 000-0000</option>
                         <option value="country-1">+1 (555) 000-0000</option>
@@ -55,21 +58,21 @@
 
                 </div>
 
-                <div class="icon-ph">
-                    <img class="icone-phone" src="./static/images/icon-phone.png" alt="phone">
+                <div class="icon-ph contact__icon-ph">
+                    <img class="icone-phone icon-ph__icone-phone" src="./static/images/icon-phone.png" alt="phone">
                 </div>
             </fieldset>
 
-            <fieldset class="message">
-                <legend>Message <img class="star" src="./static/images/star.png" alt="star"></legend>
-                <textarea class="your-message phone-message" name="comment" id="comment-field"
+            <fieldset class="message contact__message">
+                <legend>Message <img class="star message__star" src="./static/images/star.png" alt="star"></legend>
+                <textarea class="your-message message__your-message phone-message" name="comment" id="comment-field"
                     rows="8">Your message</textarea>
             </fieldset>
 
         </form>
 
-        <div class="button">
-            <button class="btn" type="button">Enter</button>
+        <div class="button contact__button">
+            <button class="btn button__btn" type="button">Enter</button>
         </div>
 
 

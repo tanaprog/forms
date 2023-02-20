@@ -43,14 +43,14 @@ body {
     padding: 60px 60px 0 60px;
 }
 
-.title {
+.contact-title__title {
     font-size: 32px;
     font-family: var(--fonts-big-text);
     margin-bottom: 5px;
     text-align: center;
 }
 
-.text {
+.contact-title__text {
     font-size: 14px;
     text-align: center;
     font-family: var(--fonts-text);
@@ -73,13 +73,17 @@ legend {
     margin-left: 11px;
     font-size: 12px;
     font-family: var(--fonts-text);
+    position: absolute;
+    z-index: 2;
+    margin-top: -8px;
+    background-color: var(--color-back);
 }
 
 .star {
     transform: translateY(-3px);
 }
 
-.all-property {
+.property-height-border {
     position: relative;
     height: 46px;
     border: 1px solid var(--color-border);
@@ -96,8 +100,8 @@ input {
     outline: none;
     width: 80%;
     position: absolute;
-    top: 3px;
-    /* transform: translateY(3px); */
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .contact__first-last-name {
@@ -115,7 +119,8 @@ input {
 
 .icon-envelop {
     position: absolute;
-    top: 3px;
+    top: 50%;
+    transform: translateY(-50%);
     left: 348px;
 }
 
@@ -125,18 +130,19 @@ input {
     margin-bottom: 25px;
 }
 
-.wrapper {
+.wrapper-flag-phone {
     position: absolute;
-    top: 5px;
     padding-left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .icone-phone {
     position: absolute;
-    top: 3px;
+    top: 50%;
     right: -1px;
     padding-right: 12px;
-    /* transform: translateY(3px); */
+    transform: translateY(-50%);
 }
 
 .message {
@@ -151,11 +157,6 @@ textarea {
     transform: translateY(3px);
 }
 
-.phone-number {
-    position: absolute;
-    top: -1px;
-}
-
 .phone-message {
     border: none;
     outline: none;
@@ -166,6 +167,7 @@ textarea {
 .your-message {
     padding-left: 16px;
     width: 95%;
+    padding-top: 7px;
 }
 
 .button {

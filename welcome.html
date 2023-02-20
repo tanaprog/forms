@@ -39,8 +39,8 @@
 
             <fieldset class="email-star general-properties email-pass-birth">
                 <legend>E-mail <img class="star" src="./static/images/star.png" alt="star"></legend>
-                <input class="your-property" type="text" placeholder="yourmail@gmail.com">
-                <div class="welcome-envelop">
+                <div class="wraper-email-pass-birth">
+                    <input class="your-property" type="text" placeholder="yourmail@gmail.com">
                     <img class="your-envelop indent-right" src="./static/images/envelop.png" alt="envelop">
                 </div>
             </fieldset>
@@ -48,8 +48,8 @@
 
             <fieldset class="password-star general-properties email-pass-birth">
                 <legend>Password <img class="star" src="./static/images/star.png" alt="star"></legend>
-                <input class="your-property" type="text" placeholder="•••••••••••••" maxlength="13">
-                <div class="welcome-eyes">
+                <div class="wraper-email-pass-birth">
+                    <input class="your-property" type="number" placeholder="•••••••••••••" maxlength="13">
                     <img class="your-eyes indent-right" src="./static/images/icon-eyes.png" alt="eyes">
                 </div>
             </fieldset>
@@ -57,19 +57,21 @@
 
             <fieldset class="city general-properties city-national">
                 <legend>City</legend>
-                <img class="icon-navigator left-indent" src="./static/images/nav.icon.png" alt="navigator">
-                <select class="your-city">
-                    <option value="city-1">Select city</option>
-                    <option value="city-2">Select city</option>
-                    <option value="city-3">Select city</option>
-                </select>
+                <div class="wraper-city-national">
+                    <img class="icon-navigator left-indent" src="./static/images/nav.icon.png" alt="navigator">
+                    <select class="your-city">
+                        <option value="city-1">Select city</option>
+                        <option value="city-2">Select city</option>
+                        <option value="city-3">Select city</option>
+                    </select>
+                </div>
             </fieldset>
 
 
             <fieldset class="birthday general-properties email-pass-birth">
                 <legend>Birthday</legend>
-                <input class="your-property" type="text" placeholder="DD / MM / YYYY" maxlength="8">
-                <div class="calendar">
+                <div class="wraper-email-pass-birth">
+                    <input class="your-property" type="text" placeholder="DD / MM / YYYY" maxlength="8">
                     <img class="icon-calendar indent-right" src="./static/images/calendar.png" alt="calendar">
                 </div>
             </fieldset>
@@ -77,12 +79,14 @@
 
             <fieldset class="nationality general-properties city-national">
                 <legend>Nationality</legend>
-                <img class="flag left-indent" src="./static/images/flag.icon.png" alt="flag">
-                <select class="your-national">
-                    <option value="nationality-1">Your nationality</option>
-                    <option value="nationality-1">Your nationality</option>
-                    <option value="nationality-1">Your nationality</option>
-                </select>
+                <div class="wraper-city-national">
+                    <img class="flag left-indent" src="./static/images/flag.icon.png" alt="flag">
+                    <select class="your-national">
+                        <option value="nationality-1">Your nationality</option>
+                        <option value="nationality-1">Your nationality</option>
+                        <option value="nationality-1">Your nationality</option>
+                    </select>
+                </div>
             </fieldset>
 
         </form>
