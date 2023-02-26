@@ -151,7 +151,8 @@ input {
 
 .icon-envelop,
 .icon-eyes {
-    padding-right: 12px;
+    position: absolute;
+    right: 12px;
 }
 
 .name-password {

@@ -159,7 +159,7 @@ input {
 
 .wraper-dots-logo {
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 343px 1fr;
     gap: 17px;
     position: absolute;
     top: 50%;
@@ -190,7 +190,8 @@ input {
 .small-logo {
     width: 32px;
     height: 22px;
-    padding-right: 12px;
+    position: absolute;
+    right: 12px;
 }
 
 .credit-card__date {

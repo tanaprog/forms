@@ -121,10 +121,6 @@ input {
     width: 100%;
 }
 
-.your-property {
-    width: 100%;
-}
-
 .wraper-city-national {
     display: flex;
     justify-content: flex-start;
@@ -154,7 +150,8 @@ select {
 }
 
 .indent-right {
-    padding-right: 12px;
+    position: absolute;
+    right: 12px;
 }
 
 .city {
